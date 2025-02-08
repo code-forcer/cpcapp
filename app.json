@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "companies-center-llc",
+    "slug": "companies-center-llc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo/imageone.jpeg",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo/imageone.jpeg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.codeforcer.companiescenterllc"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/logo/imageone.jpeg"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/logo/imageone.jpeg",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "af0fcd1f-3fd6-4c91-8e04-21115c27b860"
+      }
+    },
+    "owner": "codeforcer"
+  }
+}
